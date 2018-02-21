@@ -19,6 +19,38 @@ body {
   height: 100%;
   width: 100%;
 }
+
+@-webkit-keyframes blink {
+  0% {
+      opacity: .8;
+  }
+  50% {
+      opacity: .1;
+  }
+  100% {
+      opacity: .8;
+  }
+}
+
+.loader {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+
+  img {
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+  }
+}
+
 .logo {
   position: absolute;
   z-index: 2;

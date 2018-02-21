@@ -1,3 +1,7 @@
+$(window).load(function(){
+  $('.loader').fadeOut(1000);
+});
+
 $(document).ready(function () {
 
   var galleryTop = new Swiper('.gallery-top', {
