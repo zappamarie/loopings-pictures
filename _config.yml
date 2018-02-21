@@ -1,12 +1,11 @@
 # Site settings
-title: Tiffany Vachez
+title: Looping's Pictures
 email: tiffany.vachez@outlook.com
-description: "Developper"
+description: ""
 baseurl: ""
-url: "https://tiffany.vachez.com"
-twitter_username: "tiffany_vachez"
+# url: "https://tiffany.vachez.com"
 github_username: bloodstorms
-logo: /img/tiffanyvachez_logo.png
+# logo: /img/tiffanyvachez_logo.png
 
 # Build settings
 markdown: kramdown
