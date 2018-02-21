@@ -1,0 +1,18 @@
+# Site settings
+title: Tiffany Vachez
+email: tiffany.vachez@outlook.com
+description: "Developper"
+baseurl: ""
+url: "https://tiffany.vachez.com"
+twitter_username: "tiffany_vachez"
+github_username: bloodstorms
+logo: /img/tiffanyvachez_logo.png
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-autoprefixer

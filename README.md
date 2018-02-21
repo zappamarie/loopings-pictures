@@ -1,2 +1,3 @@
-# loopings-pictures
+# Looping's Pictures
+
 Photography website
