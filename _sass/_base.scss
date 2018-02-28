@@ -1,15 +1,20 @@
 html, body {
- position: relative;
- height: 100%;
+  position: relative;
+  height: 100%;
 }
+
 body {
- background: #000;
- font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
- font-size: 14px;
- color:#000;
- margin: 0;
- padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
 }
+
+#home {
+  background: black;
+}
+
 nav {
   align-items: center;
   background-color: transparent;
@@ -69,7 +74,7 @@ nav {
     }
   }
 }
-.wrapper {
+#home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,3 +150,5 @@ nav {
 .gallery-thumbs .swiper-slide-active {
  opacity: 1;
 }
+
+@import "gallery";

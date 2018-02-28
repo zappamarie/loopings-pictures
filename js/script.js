@@ -34,26 +34,7 @@ $(document).ready(function () {
     slideToClickedSlide: true,
   });
 
-  // var galleryThumbs = new Swiper('.gallery-thumbs', {
-  //   spaceBetween: 10,
-  //   centeredSlides: true,
-  //   slidesPerView: 'auto',
-  //   loop: true,
-  //   touchRatio: 0.2,
-  //   slideToClickedSlide: true,
-  //   autoplay: {
-  //     delay: 2500,
-  //     disableOnInteraction: false,
-  //   },
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     clickable: true,
-  //   },
-  //   navigation: {
-  //     nextEl: '.swiper-button-next',
-  //     prevEl: '.swiper-button-prev',
-  //   },
-  // });
   galleryTop.controller.control = galleryThumbs;
   galleryThumbs.controller.control = galleryTop;
+
 });
