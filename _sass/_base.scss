@@ -1,14 +1,41 @@
+* {
+  user-select: none;
+}
+
+html {
+  height: 100%;
+}
+
 html, body {
   position: relative;
-  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color:#000;
-  margin: 0;
-  padding: 0;
+  overflow-y: auto;
+}
+
+body#body-homepage {
+  background-color: transparent;
+  height: 100%;
+  overflow-y: hidden;
+
+  nav {
+    background-color: transparent;
+  }
+}
+
+#right-click-copyright {
+  color: white;
+  display: none;
+  height: 15px;
+  position: fixed;
+  width: 15px;
+  z-index: 10;
 }
 
 #home {
@@ -17,11 +44,11 @@ body {
 
 nav {
   align-items: center;
-  background-color: transparent;
+  background: rgba(167, 217, 223, 0.9);
   display: flex;
   justify-content: center;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   transition: background-color .5s;
   width: 100%;
