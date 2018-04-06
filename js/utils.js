@@ -1,3 +1,7 @@
+$(window).load(function(){
+  $('.loader').fadeOut(1000);
+});
+
 $(document).ready(function () {
 
   //COPYRIGHT CLICK
@@ -36,5 +40,5 @@ $(document).ready(function () {
       return false;
     }
   });
-  
+
 });

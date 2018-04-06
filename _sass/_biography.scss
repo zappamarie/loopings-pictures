@@ -1,0 +1,55 @@
+#body-biography {
+  align-items: center;
+  background-image: url('../img/biography.jpg');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+
+  nav {
+    background: rgba(218, 207, 194, 0.45);
+  }
+}
+
+.biography__background {
+  background: rgba(218, 207, 194, .45);
+  box-sizing: border-box;
+  height: 80%;
+  margin-right: 5%;
+  margin-top: 60px;
+  padding: 30px 55px;
+  position: relative;
+  width: 600px;
+
+  &::before {
+    border: 3px solid #ddc543;
+    content: '';
+    height: 100%;
+    left: -25px;
+    opacity: .5;
+    position: absolute;
+    top: -25px;
+    width: 100%;
+  }
+
+  &::after {
+    border: 3px solid #ddc543;
+    bottom: -25px;
+    content: '';
+    height: 100%;
+    opacity: .5;
+    position: absolute;
+    right: -25px;
+    width: 100%;
+  }
+}
+
+.biography__presentation {
+  color: #30291c;
+  font-family: 'Handlee', cursive;
+  font-size: 22px;
+  text-align: justify;
+}
