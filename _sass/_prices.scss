@@ -35,33 +35,33 @@
   background-color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   height: 330px;
-  margin: 20px;
+  margin: 15px;
   overflow: hidden;
   padding-top: 115px;
   padding-right: 20px;
   position: relative;
-  width: 275px;
+  width: 265px;
 }
 
 .prices__block--long {
-  height: 80px;
+  height: 70px;
   padding: 20px;
-  width: 905px;
+  width: 1152px;
 
   .prices__block-header {
     align-items: center;
     background-color: #c4c4c4;
     display: flex;
-    height: 80px;
+    height: 70px;
     justify-content: center;
     top: 0;
-    transform: skewY(-4deg);
+    transform: skewY(-3deg);
   }
   .prices__block-title {
     font-size: 15px;
     left: auto;
     top: auto;
-    transform: skewY(4deg);
+    transform: skewY(3deg);
   }
 }
 
@@ -81,6 +81,12 @@
   .prices__block-header,
   .prices__block-bubble {
     background-color: #e8d7ab;
+  }
+}
+.prices__block--4 {
+  .prices__block-header,
+  .prices__block-bubble {
+    background-color: #edbb98;
   }
 }
 
