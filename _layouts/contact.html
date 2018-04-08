@@ -3,13 +3,31 @@
 
   {% include head.html %}
 
-  <body id="body-biography">
+  <body id="body-contact">
 
     <div class="loader">
       <img class="logo" src="{{ site.baseurl }}/img/logo-transparent-white.png" alt="logo-loopings-pictures">
     </div>
 
     {% include header.html %}
+
+    <h1 class="contact__title">Contact</h1>
+
+    <div class="contact__block">
+      <div class="contact__line">
+        <i class="fa fa-phone">&nbsp;</i>
+        <p>06.00.00.00.00</p>
+      </div>
+      <div class="contact__line">
+        <i class="fa fa-at">&nbsp;</i>
+        <p>test@test.com</p>
+      </div>
+      <div class="contact__line">
+        <i class="fa fa-map-marker">&nbsp;</i>
+        <p>12 rue test-test, 83000 TESTVILLE</p>
+      </div>
+      <!-- <img src="{{ site.baseurl }}/img/map.png" alt=""> -->
+    </div>
 
     <script src="{{ site.baseurl }}/js/utils.js"></script>
 
