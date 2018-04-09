@@ -24,6 +24,17 @@
   position: relative;
   width: 600px;
 
+  @media screen and (max-width: 768px) {
+    background: rgba(218, 207, 194, 0.45);
+    box-sizing: border-box;
+    height: 75%;
+    margin: 0 25px;
+    margin-top: 50px;
+    padding: 25px 40px;
+    position: relative;
+    width: 100%;
+  }
+
   &::before {
     border: 3px solid #ddc543;
     content: '';
@@ -33,6 +44,11 @@
     position: absolute;
     top: -25px;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+      left: -15px;
+      top: -15px;
+    }
   }
 
   &::after {
@@ -44,6 +60,11 @@
     position: absolute;
     right: -25px;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+      bottom: -15px;
+      right: -15px;
+    }
   }
 }
 
@@ -52,4 +73,14 @@
   font-family: 'Handlee', cursive;
   font-size: 22px;
   text-align: justify;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 12px;
+  }
 }

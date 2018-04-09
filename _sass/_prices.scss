@@ -24,12 +24,29 @@
   }
 }
 
+.prices__scrollable {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding: 60px 0 10px 0;
+  }
+}
+
 .prices__title {
   color: white;
   font-size: 32px;
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.2);
   text-transform: uppercase;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .prices__block-container {
@@ -37,11 +54,17 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .prices__block {
   background-color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
+  flex-shrink: 0;
   height: 370px;
   margin: 10px;
   overflow: hidden;
@@ -49,12 +72,21 @@
   padding-right: 15px;
   position: relative;
   width: 222px;
+
+  @media screen and (max-width: 768px) {
+    height: 315px;
+  }
 }
 
 .prices__block--long {
   height: 70px;
   padding: 20px;
   width: 1190px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    width: 222px;
+  }
 
   .prices__block-header {
     align-items: center;
@@ -64,12 +96,23 @@
     justify-content: center;
     top: 0;
     transform: skewY(-3deg);
+
+    @media screen and (max-width: 768px) {
+      height: 60px;
+      top: 5px;
+    }
   }
+
   .prices__block-title {
     font-size: 15px;
     left: auto;
     top: auto;
     transform: skewY(3deg);
+
+    @media screen and (max-width: 768px) {
+      font-size: 11px;
+      text-align: center;
+    }
   }
 }
 
@@ -136,6 +179,11 @@
   letter-spacing: 1px;
   line-height: 20px;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 11.5px;
+    line-height: 15px;
+  }
 }
 
 .prices__block-bubble {

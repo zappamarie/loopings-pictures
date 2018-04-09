@@ -74,12 +74,7 @@ nav {
 
     @media screen and (max-width: 768px) {
       height: 50px;
-      padding: 0 10px;
-    }
-
-    @media screen and (max-width: 374px) {
-      height: 50px;
-      padding: 0 5px;
+      padding: 0 8px;
     }
   }
 
@@ -91,13 +86,15 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     transition: opacity .3s ease-out;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
       opacity: 1;
     }
 
-    @media screen and (max-width: 374px) {
+    @media screen and (max-width: 768px) {
       font-size: 10px;
+      letter-spacing: 2px;
     }
   }
 }
@@ -176,6 +173,25 @@ nav {
 }
 .gallery-thumbs .swiper-slide-active {
  opacity: 1;
+}
+
+#signature {
+  // background-color: rgba(0,0,0,.5);
+  bottom: 0;
+  color: white;
+  font-size: 11px;
+  opacity: .9;
+  position: absolute;
+  right: 0;
+  z-index: 2000;
+
+  a {
+    color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 
 @import "_biography";

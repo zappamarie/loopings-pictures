@@ -11,35 +11,41 @@
 
     {% include header.html %}
 
-    <h1 class="contact__title">Contact</h1>
+    <div class="contact__scrollable">
 
-    <div class="contact__block">
-      <div class="contact__container-top">
-        <div class="contact__coord">
-          <div class="contact__line">
-            <i class="fa fa-phone">&nbsp;</i>
-            <p>O6.45.45.43.83</p>
+      <h1 class="contact__title">Contact</h1>
+
+      <div class="contact__block">
+        <div class="contact__container-top">
+          <div class="contact__coord">
+            <div class="contact__line">
+              <i class="fa fa-phone">&nbsp;</i>
+              <p>O6.45.45.43.83</p>
+            </div>
+            <div class="contact__line">
+              <i class="fa fa-map-marker">&nbsp;</i>
+              <p>La Londe-les-Maures, 83250</p>
+            </div>
+            <a class="contact__line" href="mailto:loopingspictures@gmail.com">
+              <i class="fa fa-at">&nbsp;</i>
+              <p>loopingspictures@gmail.com</p>
+            </a>
+            <a class="contact__line" href="https://www.facebook.com/Loopingspicture/" target="_blank">
+              <i class="fa fa-facebook-square">&nbsp;</i>
+              <p>Looping’s pictures</p>
+            </a>
+            <a class="contact__line" href="https://www.instagram.com/marie_loopingspictures/" target="_blank">
+              <i class="fa fa-instagram">&nbsp;</i>
+              <p>marie_loopingspictures</p>
+            </a>
           </div>
-          <div class="contact__line">
-            <i class="fa fa-map-marker">&nbsp;</i>
-            <p>La Londe-les-Maures, 83250</p>
-          </div>
-          <a class="contact__line" href="mailto:loopingspictures@gmail.com">
-            <i class="fa fa-at">&nbsp;</i>
-            <p>loopingspictures@gmail.com</p>
-          </a>
-          <a class="contact__line" href="https://www.facebook.com/Loopingspicture/" target="_blank">
-            <i class="fa fa-facebook-square">&nbsp;</i>
-            <p>Looping’s pictures</p>
-          </a>
-          <a class="contact__line" href="https://www.instagram.com/marie_loopingspictures/" target="_blank">
-            <i class="fa fa-instagram">&nbsp;</i>
-            <p>marie_loopingspictures</p>
-          </a>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117446.7286818669!2d6.20924779976708!3d43.17414457357943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9255fdd848e45%3A0x772fca117f7e16d9!2s83250+La+Londe-les-Maures!5e0!3m2!1sfr!2sfr!4v1523257840768" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117446.7286818669!2d6.20924779976708!3d43.17414457357943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9255fdd848e45%3A0x772fca117f7e16d9!2s83250+La+Londe-les-Maures!5e0!3m2!1sfr!2sfr!4v1523257840768" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
+
     </div>
+
+    {% include signature.html %}
 
     <script src="{{ site.baseurl }}/js/utils.js"></script>
 
