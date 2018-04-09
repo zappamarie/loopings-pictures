@@ -84,7 +84,10 @@
     transform: scale(0.8);
   }
   @media screen and (max-width: 768px) {
-    height: 315px;
+    height: 320px;
+    width: 260px;
+    margin: 10px;
+    transform: scale(1);
   }
 
 }
@@ -96,7 +99,7 @@
 
   @media screen and (max-width: 768px) {
     padding: 0;
-    width: 222px;
+    width: 260px;
   }
 
   .prices__block-header {

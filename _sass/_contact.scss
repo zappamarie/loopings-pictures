@@ -88,6 +88,14 @@
     flex-direction: column;
 
     iframe {
+      height: 280px!important;
+      width: 100%!important;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+
+    iframe {
       height: 200px!important;
       width: 100%!important;
     }
