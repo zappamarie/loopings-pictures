@@ -40,27 +40,52 @@
   overflow: hidden;
   padding: 50px;
   position: relative;
-  width: 800px;
+  width: 1000px;
+
+  * {
+    user-select: text;
+  }
+  ::selection {
+    color: #f4f0e8;
+    background: #998066;
+  }
+}
+
+.contact__container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact__line {
   align-items: center;
   color: #4e2e08;
   display: flex;
-  font-family: Georgia;
+  // font-family: Georgia;
   font-size: 20px;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  text-decoration: none;
 
   &:last-child {
     margin-bottom: 0;
   }
+  &:nth-child(3) {
+    margin-bottom: 50px;
+  }
 
   i {
     font-size: 30px;
+    text-align: center;
+    width: 40px;
   }
 
   p {
     margin: 0;
   }
+}
+
+//MAP
+.gmnoprint {
+  display: none;
 }
